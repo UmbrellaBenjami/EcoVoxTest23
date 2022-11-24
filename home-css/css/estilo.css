@@ -7,7 +7,7 @@ body{
     font-family: Helvetica, Arial,  sans-serif;
 }
 
-@media only screen and (min-width: 480px){
+@media only screen and (max-width: 480px){
 
   header{
     width: 480px;
@@ -20,13 +20,13 @@ body{
     background-color: #00aaaa;
   }
 
-  img[src="image/logo00aaaa.png"]{
+  #logo{
     position: relative;
     width: 39vw;
     left: 28vw;
   }
 
-  img[src="image/user-home.png"]{
+  #home{
     position: relative;
     width: 7,8vw;
     left: 230px;
@@ -35,13 +35,13 @@ body{
 
    /* --------------------------------------------------MENU--------------------------------------------------------------*/
 
-    img[src="image/menu.png"]{
+    #menu{
       position: relative;
       right: 45vw;
       top: 10px;
     }
 
-    input[type="checkbox"]{
+    input{
       position: absolute;
       right: 84vw;
       top: 30px;
@@ -85,12 +85,12 @@ body{
 
     ul h2{
       position: relative;
-      top: 10px;
+      top: 18px;
       left: 20px;
       color: #ffffff;
     }
 
-    img[src="image/pesquisa-menu.png"]{
+    #pesquisa{
       position: relative;
       left: 15px;
       bottom: 35px;
@@ -105,7 +105,7 @@ body{
       text-decoration: none;
     }
 
-    img[src="image/compra-menu.png"]{
+    #carrinho{
       position: relative;
       left: 15px;
       bottom: 80px;
@@ -120,7 +120,7 @@ body{
       text-decoration: none;
     }
 
-    img[src="image/instituições-menu.png"]{
+    #instituicoes{
       position: relative;
       left: 15px;
       bottom: 120px;
@@ -135,7 +135,7 @@ body{
       text-decoration: none;
     }
 
-    img[src="image/ongs-menu.png"]{
+    #ongs{
       position: relative;
       left: 15px;
       bottom: 160px;
@@ -160,7 +160,7 @@ body{
       color: #ffffff;
     }
 
-    img[src="image/ajuda-menu.png"]{
+    #ajuda{
       position: relative;
       left: 15px;
       bottom: 185px;
@@ -175,7 +175,7 @@ body{
       text-decoration: none;
     }
 
-    img[src="image/config-menu.png"]{
+    #config{
       position: relative;
       left: 15px;
       bottom: 235px;
@@ -198,7 +198,7 @@ body{
     width: 60vw;
     height: 65px;
     top: 150px;
-    left: 100px;
+    left: 80px;
     text-align: center;
     font-size: 2.0rem;
     font-weight: bold;
@@ -211,7 +211,7 @@ body{
     width: 300px;
     height: 250px;
     top: 280px;
-    left: 13vw;
+    left: 11vw;
     text-align: center;
     padding: 26px;
     background-color: #f2f2f2;
@@ -251,21 +251,22 @@ body{
   .produto p{
     display: block;
     position: relative;
-    width: 15vw;
+    width: 17vw;
     padding: 45px;
-    left: 350px;
+    left: 320px;
+    font-weight: bold;
     margin-bottom: 15px;
     color: #ffffff;
   }
 
-  img[src="image/produto-home.png"]{
+  #produto{
     position: relative;
     width: 25vw;
     left: 40px;
     top: 10px;
   }
 
-  img[src="image/heart-produto.png"]{
+  #heart{
     position: relative;
     bottom: 165px;
     left: 55px;
@@ -273,9 +274,9 @@ body{
 
   .camiseta{
     position: relative;
-    width: 220px;
+    width: 215px;
     height: 400px;
-    left: 15px;
+    left: 9px;
     bottom: 10px;
     border-radius: 20px;
     background-color: #f2f2f2;
@@ -295,9 +296,10 @@ body{
   .camiseta p del{
     display: block;
     position: relative;
-    right: 375px;
+    right: 345px;
     bottom: 220px;
     font-size: 1.0rem;
+    font-weight: lighter;
     color: #333333;
   }
 
@@ -340,36 +342,180 @@ body{
     border: none;
   }
 
+  #produto2{
+    position: relative;
+    width: 35vw;
+    left: 23px;
+    top: 30px;
+  }
+
+  #heart2{
+    position: relative;
+    bottom: 105px;
+    left: 8px;
+  }
+
   .produto2{
     position: relative;
-    width: 220px;
+    width: 215px;
     height: 400px;
-    left: 0px;
-    bottom: 450px;
+    left: 9px;
+    bottom: -2px;
     border-radius: 20px;
     background-color: #f2f2f2;
   }
 
-  .produto3{
+  .produto2 h3:nth-child(5){
+    display: block;
     position: relative;
-    width: 220px;
+    width: 1px;
+    bottom: 60px;
+    padding-left: 20px;
+    font-size: 1.0rem;
+    color: #333333;
+  }
+
+  .produto2 p del{
+    display: block;
+    position: relative;
+    right: 345px;
+    bottom: 200px;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    color: #333333;
+  }
+
+  .produto2 h3:nth-child(9){
+    display: block;
+    position: relative;
+    left: -1px;
+    bottom: 365px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    color: #333333;
+  }
+
+  .produto2 h3:nth-child(10){
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    bottom: 387px;
+    left: 110px;
+    text-align: center;
+    font-size: 1.0rem;
+    background-color: #D70808F5;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .produto2 button{
+    position: relative;
+    width: 180px;
+    height: 40px;
+    bottom: 475px;
+    left: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00aaaa;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+
+/*  .produto3{
+    position: relative;
+    width: 215px;
     height: 400px;
     left: 230px;
     bottom: 850px;
     border-radius: 20px;
     background-color: #f2f2f2;
+  } */
+
+  #produto3{
+    position: relative;
+    width: 25.5vw;
+    left: 48px;
+    top: 30px;
   }
 
-  .produto4{
+  #heart3{
     position: relative;
-    width: 220px;
+    bottom: 120px;
+    left: 53px;
+  }
+
+  .produto3{
+    position: relative;
+    width: 215px;
     height: 400px;
-    left: 230px;
-    bottom: 1675px;
+    left: 235px;
+    bottom: 398px;
     border-radius: 20px;
     background-color: #f2f2f2;
-
   }
+
+  .produto3 h3:nth-child(5){
+    display: block;
+    position: relative;
+    width: 1px;
+    bottom: 60px;
+    padding-left: 20px;
+    font-size: 1.0rem;
+    color: #333333;
+  }
+
+  .produto3 p del{
+    display: block;
+    position: relative;
+    right: 345px;
+    bottom: 200px;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    color: #333333;
+  }
+
+  .produto3 h3:nth-child(9){
+    display: block;
+    position: relative;
+    left: -1px;
+    bottom: 365px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    color: #333333;
+  }
+
+  .produto3 h3:nth-child(10){
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    bottom: 387px;
+    left: 110px;
+    text-align: center;
+    font-size: 1.0rem;
+    background-color: #D70808F5;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .produto3 button{
+    position: relative;
+    width: 180px;
+    height: 40px;
+    bottom: 475px;
+    left: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00aaaa;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+
 
 /* ---------------------------------------------------ARTIGO------------------------------------------------------------*/
 
@@ -397,7 +543,7 @@ body{
     color: #333333;
   }
 
-  img[src="image/artigo1.png"]{
+  #artigo{
     width: 80vw;
     margin-top: 110px;
     margin-left: 45px;
@@ -446,13 +592,13 @@ body{
     background-color: #00aaaa;
   }
 
-  img[src="image/ig-footer.png"]{
+  #ig{
     position: relative;
     top: 40px;
     margin-left: 20px;
   }
 
-  img[src="image/email-footer.png"]{
+  #email{
     position: relative;
     top: 20px;
     margin-left: 20px;
@@ -528,5 +674,5 @@ body{
 }
 
 
-@media only screen and (min-width: 481px) and (max-width: 840px){
+@media only screen and (max-width: 480px){
 }
